@@ -1,0 +1,23 @@
+{
+    "name": "serversetup",
+    "version": "1.0.0",
+    "description": "An npm package to provide server side setup.",
+    "main": "index.js",
+    "scripts": {
+        "build": "node build",
+        "postinstall": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AkshayDhola/ServerSetup.git"
+    },
+    "keywords": [
+        "npm"
+    ],
+    "author": "Akshay Dhola",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/AkshayDhola/ServerSetup/issues"
+    },
+    "homepage": "https://github.com/AkshayDhola/ServerSetup#readme"
+}
